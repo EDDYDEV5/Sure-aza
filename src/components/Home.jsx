@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { one } from "../assets";
 
 const Home = () => {
 	return (
@@ -43,9 +43,9 @@ const Home = () => {
 				className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
 			>
 				<img
-					src={robot}
+					src={one}
 					alt="billing"
-					className="w-[100%] h-[100%] relative z-[5]"
+					className="w-[100%] h-[80%] relative z-[5] p-4 md:p-0 rounded-3xl md:mr-16 shadow-lg shadow-purple-900"
 				/>
 
 				<div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

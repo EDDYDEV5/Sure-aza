@@ -1,3 +1,7 @@
-<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M31.4966 0.931172C30.6963 0.109757 29.5118 -0.196261 28.4074 0.125863L2.65282 7.61524C1.48754 7.93897 0.661604 8.8683 0.439113 10.0489C0.21182 11.2504 1.00574 12.7757 2.04297 13.4135L10.0959 18.3629C10.9218 18.8702 11.9878 18.743 12.6713 18.0537L21.8927 8.77488C22.3569 8.2917 23.1252 8.2917 23.5894 8.77488C24.0536 9.24196 24.0536 9.99895 23.5894 10.4821L14.352 19.7625C13.6669 20.4503 13.5389 21.5213 14.0431 22.3524L18.9635 30.486C19.5397 31.4524 20.5321 32 21.6206 32C21.7486 32 21.8927 32 22.0207 31.9839C23.2693 31.8228 24.2617 30.9692 24.6298 29.7612L32.2649 4.03967C32.6011 2.94445 32.297 1.75259 31.4966 0.931172" fill="#00F6FF"/>
-</svg>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#ffffff" stroke="#ffffff">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier"> <title>send-email</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-570.000000, -257.000000)" fill="#ffffff"> <path d="M580.407,278.75 C581.743,281.205 586,289 586,289 C586,289 601.75,258.5 602,258 L602.02,257.91 L580.407,278.75 L580.407,278.75 Z M570,272 C570,272 577.298,276.381 579.345,277.597 L601,257 C598.536,258.194 570,272 570,272 L570,272 Z" id="send-email" sketch:type="MSShapeGroup"> </path> </g> </g> </g>
+</svg>

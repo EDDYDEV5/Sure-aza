@@ -40,7 +40,7 @@ const Business = () => {
 			<div className={layout.sectionInfo}>
 			
 				<h2 className={styles.heading2}>
-				We&#39;ll handle the finace, <br className="sm:block hidden" />
+				Let's handle your finace, <br className="sm:block hidden" />
 					while you do they business
 				</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>

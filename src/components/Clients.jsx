@@ -1,4 +1,4 @@
-import { clients } from "../contants";
+
 import styles from "../style";
 
 const Clients = () => {
@@ -13,8 +13,8 @@ const Clients = () => {
 						<img
 							src={client.logo}
 							alt="client"
-							className="sm:w-[192px] w-[100px] object-contain transition 
-              duration-300 hover:invert cursor-pointer"
+							className="sm:w-[192px] w-[100px] object-contain transition ease-in-out 
+              duration-600 hover:invert cursor-pointer"
 						/>
 					</div>
 				))}

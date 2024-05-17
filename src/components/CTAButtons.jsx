@@ -7,7 +7,7 @@ const CTAButtons = () => {
     flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
 		>
 			<div className="flex-1 flex flex-col">
-				<h2 className={styles.heading2}>Let&#39;s try our services now!</h2>
+				<h2 className={styles.heading2}>Try our services now!</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 					Everything you need to accept card payments and grow your business
 					anywhere on the planet.

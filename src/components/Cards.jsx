@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { card } from "../assets";
+import { twoatms } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -13,9 +13,7 @@ const Cards = () => {
 					in few easy steps.
 				</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-					entore veritatis et quasi architecto beatae vitae dicta sunt explicabo
-					unde omnis iste natus error sit voluptatem accusantium doloremque
-					laudantium.
+				tenetur, error obcaecati ipsam magni esse dolor possimus atque eaque aut porro itaque unde ad asperiores illum excepturi recusandae. Minus repudiandae, rem veritatis neque laudantium quisquam? Provident quia blanditiis 
 				</p>
 
         <Button styles="mt-10" />
@@ -23,7 +21,7 @@ const Cards = () => {
 
       {/* Right Side */}
       <div className={layout.sectionImg}>
-        <img src={card} alt="card" className="w-[100%] h-[100%]" />
+        <img src={twoatms} alt="card" className="w-[100%] h-[80%]  m-2 rounded-xl  shadow-lg shadow-purple-900" />
       </div>
 		</section>
 	);

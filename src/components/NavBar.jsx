@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, logo, menu } from "../assets";
+import { close, SUREAZA, menu } from "../assets";
 import { navLinks } from "../contants";
 
 const Navbar = () => {
@@ -7,11 +7,15 @@ const Navbar = () => {
 
 	return (
 		<nav
-			className="w-full flex py-6 justify-between 
+			className="w-full flex py- justify-between 
 			items-center navbar"
-		>
-			<img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+		> 
+		
+		<img src={SUREAZA}  alt="hoobank" className="w-[200px] h-[200px] rounded-full -ml-9" />
+			
 
+	
+			
 			<ul
 				className="list-none sm:flex hidden
 			justify-end items-center flex-1"
@@ -20,9 +24,9 @@ const Navbar = () => {
 					<li
 						key={nav.id}
 						className={`font-poppins font-normal cursor-pointer
-				text-[16px] ${
+				text-[19px] hover:text-purple-500 ${
 					index === navLinks.length - 1 ? "mr-0" : "mr-10"
-				} text-white mr-10`}
+				} text-white mr-10 `}
 					>
 						<a href={`#${nav.id}`}>{nav.title}</a>
 					</li>
@@ -42,7 +46,7 @@ const Navbar = () => {
 					className={`${
 						toggle ? "flex" : "hidden"
 					} p-6 bg-black-gradient absolute
-				top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+				top-20 right-0 my-10 min-w-[140px] rounded-s-xl sidebar`}
 				>
 					<ul
 						className="list-none flex flex-col
@@ -52,7 +56,7 @@ const Navbar = () => {
 							<li
 								key={nav.id}
 								className={`font-poppins font-normal cursor-pointer
-								text-[16px] ${index === navLinks.length - 1 ? "mr-0" : "mb-4"} text-white mb-4`}
+								text-[16px] ${index === navLinks.length - 1 ? "mr-0" : "mb-4"} text-white mb-4 hover:scale-125 duration-600`}
 							>
 								<a href={`#${nav.id}`}>{nav.title}</a>
 							</li>

@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from "react";
 import styles from "./style";
 
@@ -11,7 +11,6 @@ import {
 	Footer,
 	Testimonials,
 	CTAButtons,
-	Clients
 } from "./components/index";
 
 const App = () => (
@@ -30,10 +29,9 @@ const App = () => (
 
 		<div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
 			<div className={`${styles.boxWidth}`}>
-				<Clients />
 				<Business />
-				<Billing />
 				<Cards />
+				<Billing />
 				<Testimonials />
 				<CTAButtons />
 				<Footer />
