@@ -7,7 +7,7 @@ const Navbar = () => {
 
 	return (
 		<nav
-			className="w-full flex py- justify-between 
+			className="w-full flex justify-between 
 			items-center navbar"
 		> 
 		
