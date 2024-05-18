@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from "react";
 import { twoatms } from "../assets";
 import styles, { layout } from "../style";
@@ -19,7 +19,7 @@ const Cards = () => {
         <Button styles="mt-10" />
 			</div>
 
-      {/* Right Side */}
+  
       <div className={layout.sectionImg}>
         <img src={twoatms} alt="card" className="w-[100%] h-[80%]  m-2 rounded-xl  shadow-lg shadow-purple-900" />
       </div>

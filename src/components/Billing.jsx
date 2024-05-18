@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from "react";
 import { apple, google, doubleatm } from "../assets";
 import styles, { layout } from "../style";
@@ -19,7 +19,7 @@ const Billing = () => {
 				<div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
 			</div>
 
-			{/* Right side */}
+	
 			<div className={layout.sectionInfo}>
 				<h2 className={styles.heading2}>
 				Billing & invoicing <br className="sm:block hidden" /> made easy

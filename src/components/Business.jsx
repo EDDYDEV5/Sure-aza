@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from "react";
 import { features } from "../contants";
 import styles, { layout } from "../style";
@@ -6,7 +6,6 @@ import Button from "./Button";
 
 
 
-// eslint-disable-next-line react/prop-types
 const FeatureCard = ({ icon, title, content, index }) => {
 	return (
 		<div
@@ -51,7 +50,7 @@ const Business = () => {
 				<Button styles="mt-7 rounded-md" />
 			</div>
 
-			{/* Right side */}
+			
 			<div className={`${layout.sectionImg} flex-col`}>
 				{features.map((feature, index) => (
 					<FeatureCard key={feature.id} {...feature} index={index} />

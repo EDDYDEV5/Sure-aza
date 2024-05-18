@@ -32,7 +32,7 @@ const Navbar = () => {
 					</li>
 				))}
 			</ul>
-			{/* Small devices */}
+			
 			<div className="sm:hidden flex flex-1 justify-end items-center">
 				<img
 					src={toggle ? close : menu}
@@ -41,7 +41,7 @@ const Navbar = () => {
 					onClick={() => setToggle((prev) => !prev)}
 				/>
 
-				{/* Menu */}
+			
 				<div
 					className={`${
 						toggle ? "flex" : "hidden"

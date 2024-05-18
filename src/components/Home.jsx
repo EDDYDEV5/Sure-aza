@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from "react";
 import styles from "../style";
 import { one } from "../assets";
@@ -38,7 +38,7 @@ const Home = () => {
 				</p>
 			</div>
 
-			{/* Right side */}
+		
 			<div
 				className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
 			>

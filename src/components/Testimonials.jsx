@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { feedback } from "../contants";
 import styles from "../style";
@@ -28,7 +27,7 @@ const Testimonials = () => {
 				</div>
 			</div>
 
-			{/* Testimonial cards */}
+		
 			<div
 				className="flex flex-wrap sm:justify-start justify-centr 
       w-full feedback-container relative z-[1]"
